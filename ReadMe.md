@@ -1,6 +1,5 @@
-# Overview
 Code inside a console application:
-
+{
 static void Main(string[] args)
 
 {
@@ -12,7 +11,7 @@ static void Main(string[] args)
     textWriter.Flush();
 
 }
-
+}
 # Task
 Modify this code such that any string passed should be written to the Stream in lower case. So the output in this case should instead read: **hello, world!**
 
