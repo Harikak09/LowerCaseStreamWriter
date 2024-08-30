@@ -1,17 +1,14 @@
 Code inside a console application:
-{
+
+```csharp
 static void Main(string[] args)
-
 {
-
     TextWriter textWriter = new StreamWriter(Console.OpenStandardOutput());
-
     textWriter.WriteLine("Hello, World!");
-
     textWriter.Flush();
+}
+```
 
-}
-}
 # Task
 Modify this code such that any string passed should be written to the Stream in lower case. So the output in this case should instead read: **hello, world!**
 
