@@ -2,12 +2,15 @@
 Code inside a console application:
 
 static void Main(string[] args)
+
 {
+
     TextWriter textWriter = new StreamWriter(Console.OpenStandardOutput());
 
     textWriter.WriteLine("Hello, World!");
 
     textWriter.Flush();
+
 }
 
 # Task
@@ -20,7 +23,7 @@ Yes, there is inheritence with LowerStreamWriter, StreamWriter, TextWriter(Abstr
 Classes - TextWriter(Abstract Class), StreamWriter(Inherits TextWriter), LowerStreamWriter(Inherits StreamWriter).
 
 All three contains WriteLine but in subclasses it overrides the same function of the base class.
-![Class Diagram]()
+![Class Diagram](https://github.com/Harikak09/LowerCaseStreamWriter/blob/master/Image/class_diagram.jpg?raw=true)
 
 
 
